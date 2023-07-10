@@ -1,0 +1,11 @@
+mariadb:
+  enabled: true
+  image:
+    repository: mariadb
+    tag: latest
+  rootUser:
+    password: Thoughtworks@123
+  db:
+    name: mediawiki
+    user: admin
+    password: Thoughtworks@123
